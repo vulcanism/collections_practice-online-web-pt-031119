@@ -21,7 +21,10 @@ end
 
 def kesha_maker(array)
   kesha = []
-  array.each do 
+  array.each do |dollar|
+    dollar[2] = "$"
+    kesha << dollar
+  end
 end
 
 def find_a(array)
