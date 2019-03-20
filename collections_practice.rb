@@ -16,5 +16,5 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.collect {|x| x.reverse}
+  array.collect {|x| x.sort.reverse}
 end
