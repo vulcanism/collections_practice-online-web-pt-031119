@@ -25,6 +25,7 @@ def kesha_maker(array)
     dollar[2] = "$"
     kesha << dollar
   end
+  return kesha
 end
 
 def find_a(array)
